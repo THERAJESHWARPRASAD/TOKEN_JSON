@@ -3,7 +3,7 @@
 **NOTES**
 - Old authentication changed, now we can't use bot or replit to generate token.pickle. You need OS with a browser.
 - Windows users should install python3 and pip. You can find how to install and use them from google or from this [telegraph](https://telegra.ph/Create-Telegram-Mirror-Leech-Bot-by-Deploying-App-with-Heroku-Branch-using-Github-Workflow-12-06) from [Wiszky](https://github.com/vishnoe115) tutorial.
-- You can ONLY open the generated link from `generate_drive_token.py` in local browser.
+- You can ONLY open the generated link from `gen_token.py` in local browser.
 
 1. Visit the [Google Cloud Console](https://console.developers.google.com/apis/credentials)
 2. Go to the OAuth Consent tab, fill it, and save.

@@ -1,4 +1,4 @@
-# Getting Google OAuth API credential file and token.pickle
+# Getting Google OAuth API credential file and token.json
 
 **NOTES**
 - Old authentication changed, now we can't use bot or replit to generate token.pickle. You need OS with a browser.
@@ -14,7 +14,7 @@
 7. Move that file to the root of mirrorbot, and rename it to **credentials.json**
 8. Visit [Google API page](https://console.developers.google.com/apis/library)
 9. Search for Google Drive Api and enable it
-10. Finally, run the script to generate **token.pickle** file for Google Drive:
+10. Finally, run the script to generate **token.json** file for Google Drive:
 ```
 pip3 install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 python3 generate_drive_token.py

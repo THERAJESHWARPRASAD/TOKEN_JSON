@@ -17,7 +17,7 @@
 10. Finally, run the script to generate **token.json** file for Google Drive:
 ```
 pip3 install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-python3 generate_drive_token.py
+python3 gen_token.py
 ```
 
 

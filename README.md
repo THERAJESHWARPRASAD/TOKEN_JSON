@@ -1,3 +1,6 @@
-List of features supported by the bot
+Getting the token.json file
+Run the below script to generate the token.json file
+python3 gen_token.py
+Note: The token.pickle file can be converted to token.json by running the script
 
-### [Manual](https://github.com/l3v11/SearchX/wiki/Getting-the-Configuration-Files#getting-the-credentialsjson-file)
+
